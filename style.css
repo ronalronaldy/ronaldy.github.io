@@ -57,7 +57,7 @@ body {
 .description {
     font-size: 1.5rem;
     margin-bottom: 100%;
-    color: #fefefe;
+    color: #000000;
     padding-bottom: 90%;
 }
 
@@ -126,4 +126,29 @@ body {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .heart {
+        margin-top: 33%;
+        margin-left: -35%;
+        /* width: 180px;
+        height: 100px;
+        position: absolute;
+        top: 20%;
+        left: 35%;
+        background: #000000;
+        transform-origin: right bottom;
+        transition: 1s;
+        cursor: pointer; */
+    }
+
+    .greetings {
+        font-size: 4rem;
+        font-weight: 500;
+    }
+
+    .description {
+        font-size: 2rem;
+    }
 }
