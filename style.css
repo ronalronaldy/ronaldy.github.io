@@ -137,7 +137,7 @@ text-align: center;
 @media only screen and (max-width: 600px) {
     .heart {
         margin-top: 20%;
-        margin-left: -10%;
+        margin-left: -40%;
         /* width: 180px;
         height: 100px;
         position: absolute;
@@ -156,6 +156,6 @@ text-align: center;
 
     .description {
         font-size: 14px;
-        margin-top: 10%;
+        /* margin-top: 10%; */
     }
 }
